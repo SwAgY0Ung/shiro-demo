@@ -1,0 +1,83 @@
+GET http://localhost:8080/index/userLogin?account=admin&password=asdf1234
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=188CAC9F05F1C85E531C7FB6103198B6
+cookie: JSESSIONID=1EAB3201657463A9AA27FAD11421FF6D
+content-length: 0
+
+###
+
+GET http://localhost:8080/index/hasAdminRoles
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=090B2F25870F9824FED60DC5F60F0A9C
+cookie: JSESSIONID=188CAC9F05F1C85E531C7FB6103198B6
+content-length: 0
+
+###
+
+GET http://localhost:8080/index/userLogin?account=admin&password=asdf1234
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=F94DB08ECF72C8F0008BD9A8853EE57F
+content-length: 0
+
+<> 2024-11-19T234243.200.txt
+
+###
+
+GET http://localhost:8080/index/userLogin?account=admin&password=asdf1234
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=2A9E183AB5AD70B614DC523B1AFC59D3
+content-length: 0
+
+<> 2024-11-19T232836.200.txt
+
+###
+
+GET http://localhost:8080/index/userLogin?account=admin&password=asdf1234
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=6A8E0D974663CFF3CB8F30A91336FEB0
+content-length: 0
+
+<> 2024-11-19T232753.200.txt
+
+###
+
+GET http://localhost:8080/index/userLogin?account=admin&password=asdf1234
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=E63A66DC8B1AB0A4C72E5243D077020E
+content-length: 0
+
+<> 2024-11-19T232737.200.txt
+
+###
+
+GET http://localhost:8080/index/userLogin?account=admin&password=asdf1234
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=E63A66DC8B1AB0A4C72E5243D077020E
+cookie: JSESSIONID=E63A66DC8B1AB0A4C72E5243D077020E
+content-length: 0
+
+###
+
+GET http://localhost:8080/index/userLogin
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie: JSESSIONID=E63A66DC8B1AB0A4C72E5243D077020E
+content-length: 0
+
+###
+

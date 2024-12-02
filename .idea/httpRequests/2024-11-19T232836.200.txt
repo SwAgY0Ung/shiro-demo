@@ -1,0 +1,1 @@
+token:org.apache.shiro.authc.UsernamePasswordToken - admin, rememberMe=false

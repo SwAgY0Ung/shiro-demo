@@ -1,0 +1,26 @@
+server:
+  port: 8080
+mybatis-plus:
+  configuration:
+    # 日志输出
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath:/com/yhy/shiro/**/mapper/*Mapper.xml
+  typeAliasesPackage: com.jfy.cmai.project.*.entity
+spring:
+  datasource:
+    url: jdbc:mysql://101.42.230.55:3306/test_shiro?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&allowMultiQueries=true&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: yhy
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      connection-test-query: SELECT 1
+      idle-timeout: 30000
+      pool-name: DatebookHikariCP
+      max-lifetime: 30000
+      connection-timeout: 30000
+      auto-commit: true
+      minimum-idle: 5
+      maximum-pool-size: 15
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
