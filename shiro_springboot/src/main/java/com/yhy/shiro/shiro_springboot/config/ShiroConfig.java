@@ -106,11 +106,11 @@ public class ShiroConfig {
         //给工厂bean设置web安全管理器
         shiroFilterFactoryBean.setSecurityManager(defaultWebSecurityManager);
 
-        shiroFilterFactoryBean.setLoginUrl("/index/login");
+        shiroFilterFactoryBean.setLoginUrl("/index/userLogin");
         shiroFilterFactoryBean.setSuccessUrl("/authorized");
         shiroFilterFactoryBean.setUnauthorizedUrl("/unauthorized");
 
-        // 添加 jwt 专用过滤器，拦截除 /login 和 /logout 外的请求
+        // 添加 jwt 专用过滤器，拦截除 /userLogin 外的请求
         Map<String, Filter> filterMap = new LinkedHashMap<>();
         filterMap.put("jwtFilter", jwtFilter());
         shiroFilterFactoryBean.setFilters(filterMap);
@@ -118,7 +118,7 @@ public class ShiroConfig {
         //配置系统受限资源以及公共资源
         LinkedHashMap<String, String> filterChainDefinitionMap = new LinkedHashMap<String, String>();
         filterChainDefinitionMap.put("/index/userLogin", "anon"); // 可匿名访问
-        filterChainDefinitionMap.put("/logout", "logout"); // 退出登录
+//        filterChainDefinitionMap.put("/logout", "logout"); // 退出登录
         filterChainDefinitionMap.put("/**", "jwtFilter,authc"); // 需登录才能访问
         shiroFilterFactoryBean.setFilterChainDefinitionMap(filterChainDefinitionMap);
         return shiroFilterFactoryBean;

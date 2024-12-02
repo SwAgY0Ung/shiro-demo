@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88d52d15-b4e7-45bb-bcd9-b2f08d12fc6a" name="Changes" comment="" />
+    <list default="true" id="88d52d15-b4e7-45bb-bcd9-b2f08d12fc6a" name="Changes" comment="初始化shiro最佳实践" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +34,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/shiro_springboot/src/main/java/com/yhy/shiro/shiro_springboot/config/ShiroConfig.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -51,6 +54,7 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2lFRrZxWRKDvlZIcmORJAcsSAxh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -69,6 +73,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.ShiroSpringbootApplication.executor": "Debug",
+    "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/code/person/shiro-demo",
@@ -200,8 +205,17 @@
       <workItem from="1732716313979" duration="2243000" />
       <workItem from="1732802923490" duration="4534000" />
       <workItem from="1732964256858" duration="1217000" />
-      <workItem from="1733147232985" duration="6236000" />
+      <workItem from="1733147232985" duration="6662000" />
     </task>
+    <task id="LOCAL-00001" summary="初始化shiro最佳实践">
+      <option name="closed" value="true" />
+      <created>1733154006373</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733154006373</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,5 +223,9 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始化shiro最佳实践" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化shiro最佳实践" />
   </component>
 </project>
